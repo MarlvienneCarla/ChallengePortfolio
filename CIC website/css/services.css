@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-header {
+    background-color: #111;
+    padding: 10px 0;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-header .logo {
+    font-size: 1.5em;
+}
+
+.main-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.main-header nav ul li {
+    margin: 0;
+}
+
+.main-header nav ul li a {
+    font-size: 1em;
+}
+
+.contact-button {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #666;
+}
+
+.cta-container {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1em;
+    color: #b3b3b3;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 23%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-price, .effortless-management, .smart-decisions, .find-service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.value-price h2, .effortless-management h2, .smart-decisions h2, .find-service h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.value-price p, .effortless-management p, .smart-decisions p {
+    font-size: 1em;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+
+.value-cards, .management-cards, .decisions-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.value-card, .management-card, .decisions-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 23%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.value-card:hover, .management-card:hover, .decisions-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card h3, .management-card h3, .decisions-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.value-card p, .management-card p, .decisions-card p {
+    font-size: 1em;
+    color: #b3b3b3;
+}
+
+.decisions-card h4{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+
+.value-card button, .management-card button, .decisions-card button, .find-service button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #555;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.value-card button:hover, .management-card button:hover, .decisions-card button:hover, .find-service button:hover {
+    background-color: #777;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-links ul, .footer-social ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links ul li, .footer-social ul li {
+    margin: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+    color: #b3b3b3;
+}
+
+.value_icon { 
+    margin-bottom: -90px;
+    margin-left: -80px;
+}

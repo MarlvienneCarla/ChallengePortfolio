@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #121212;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-btn {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.info-box {
+    background-color: #1f1f1f;
+    padding: 60px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: -30px;
+}
+
+.info-box a{
+    text-decoration: none;
+}
+
+.form-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #6200ea;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.locations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.office {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact_image{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+#terms{
+    justify-content: left;
+    margin-left: -290px;
+}
+
+label{
+    margin-top: -30px;
+    margin-left: 25px;    
+}
